@@ -6,3 +6,8 @@ code: https://github.com/2wins/SRMD-pytorch
 
 2. inter 
 paper: Douglas-Rachford Networks: Learning Both the Image Prior and Data Fidelity Terms for Blind Image Deconvolution
+
+
+The framework of the image restoration:
+
+we model $y=Hx+n$
