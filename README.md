@@ -10,4 +10,10 @@ paper: Douglas-Rachford Networks: Learning Both the Image Prior and Data Fidelit
 
 The framework of the image restoration:
 
-we model $y=Hx+n$
+we model $y=Hx+n$, and there are some cases as follows:
+1.  H is an identity matrix, -----denoising
+2.  H is denoted with Hx = h \otimes x, ------deblurring 
+3.  H is a diagonal 0-1 matrix, ------inpainting
+4. H is the composition of blurring and downsampling operator, -------super-resolution
+
+
